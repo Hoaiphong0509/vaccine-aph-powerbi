@@ -4,7 +4,7 @@ const path = require('path');
 
 const app = express()
 
-const { PORT } = require('./config')
+// const { PORT } = require('./config')
 
 app.use(cors())
 
@@ -19,6 +19,6 @@ if (process.env.NODE_ENV === 'production') {
   })
 }
 
-const port = process.env.PORT || PORT
+const PORT = process.env.PORT || 5000
 
-app.listen(port, () => console.log(`Server started on port ${port} 🔥🔥🔥`))
+app.listen(PORT, () => console.log(`Server started on port ${PORT} 🔥🔥🔥`))

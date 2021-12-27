@@ -1,0 +1,11 @@
+.root {
+  text-align: center;
+  background-color: #37474f !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  & h1 {
+    font-size: 36px;
+    color: #ffffff;
+    padding: 20px;
+  }
+}
